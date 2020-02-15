@@ -1,0 +1,19 @@
+.layout {
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.box .left {
+    border: 1px solid green;
+    border-right: 0 none;
+    width: 30%;
+}
+.box .right {
+    border: 1px solid red;
+    flex:1;
+}

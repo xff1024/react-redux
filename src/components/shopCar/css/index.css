@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 80px;
+    background-color: pink;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    letter-spacing: 20px;
+}
+.linkarea {
+    background-color: skyblue;
+    height: 30px;
+}
+.linkarea a {
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 18px;
+}
+.mygoodlist {
+    padding: 10px 20px;
+}
+.mygoodlist ul li {
+    list-style: none;
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    text-align: center;
+    border: 1px solid skyblue;
+    padding: 20px;
+}
+.mygoodlist ul li img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.mygoodlist ul li p {
+    height: 30px;
+    margin-top: 10px;
+}
+.mytable-area {
+    padding: 10px 20px;
+}
+.data-img {
+    max-width: 100px;
+}
